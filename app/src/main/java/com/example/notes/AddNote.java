@@ -17,8 +17,9 @@ public class AddNote extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final EditText ET = (EditText) findViewById(R.id.note);
-        String str = ET.getText().toString();
+            //COMMENTED OUT FOR DEBUGGING
+        //final EditText ET = (EditText) findViewById(R.id.note);
+        //String str = ET.getText().toString();
 
         FloatingActionButton fab = findViewById(R.id.fab_Add);
         fab.setOnClickListener(new View.OnClickListener() {
