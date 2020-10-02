@@ -17,15 +17,14 @@ public class AddNote extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //final EditText ET = (EditText) findViewById(R.id.note);
-        //String str = ET.getText().toString();
+        final EditText ET = (EditText) findViewById(R.id.note);
+        String str = ET.getText().toString();
 
         FloatingActionButton fab = findViewById(R.id.fab_Add);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                // .setAction("Action", null).show();
+
 
             }
         });
