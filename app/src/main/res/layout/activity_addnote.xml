@@ -6,20 +6,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/note"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="text"
-        android:text="Add Note..." />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab_OK"
+    <EditText
+        android:id="@+id/Note"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Add a Note"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="19dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
         android:clickable="true"
         app:srcCompat="@android:drawable/checkbox_on_background"
-        tools:layout_editor_absoluteX="343dp"
-        tools:layout_editor_absoluteY="631dp" />
-
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="540dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

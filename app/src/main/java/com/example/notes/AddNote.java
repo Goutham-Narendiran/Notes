@@ -14,11 +14,10 @@ public class AddNote extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_addnote);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        setContentView(R.layout.activity_main);
 
-        FloatingActionButton fab = findViewById(R.id.fab_OK);
+
+        FloatingActionButton fab = findViewById(R.id.fab_Add);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
